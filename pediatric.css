@@ -22,7 +22,7 @@ body {
   width: 100%;
   transform: translateX(-50%);
   color: #ed1b24;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 1000;
 }
 .title-2 {
@@ -32,7 +32,7 @@ body {
   width: 100%;
   transform: translateX(-47%);
   color: #ed1b24;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   font-family: "Maven Pro", sans-serif;
 }
@@ -48,7 +48,7 @@ sup {
 .sub {
   position: absolute;
   font-family: "Roboto Condensed", sans-serif;
-  top: 17.5rem;
+  top: 17rem;
   left: 18%;
   font-size: 1rem;
   font-weight: 800;

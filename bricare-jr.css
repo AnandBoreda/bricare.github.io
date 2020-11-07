@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 
 html,
 body {
@@ -23,7 +24,7 @@ body {
   width: 100%;
   transform: translateX(-50%);
   color: #ed1b24;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 1000;
 }
 .title-2 {
@@ -33,9 +34,25 @@ body {
   width: 100%;
   transform: translateX(-47%);
   color: #ed1b24;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   font-family: "Maven Pro", sans-serif;
+}
+.note {
+  position: absolute;
+  top: 9rem;
+  left: 6%;
+}
+.for {
+  font-weight: 600;
+  font-family: "Allura", cursive;
+  color: #000;
+  font-size: 3rem;
+}
+.dry-cough {
+  font-family: "Oswald", sans-serif;
+  color: #9a1d24;
+  font-size: 2rem;
 }
 sup {
   font-weight: normal;
@@ -49,7 +66,7 @@ sup {
 .sub {
   position: absolute;
   font-family: "Roboto Condensed", sans-serif;
-  top: 17.5rem;
+  top: 17rem;
   left: 18%;
   font-size: 1rem;
   font-weight: 800;
