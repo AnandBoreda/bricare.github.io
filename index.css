@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  position: relative;
+  background-color: #fbfbfb;
+}
+.bg-img {
+  height: 100vh;
+  width: 100%;
+}
+.title {
+  position: absolute;
+  top: 15rem;
+  left: 70%;
+  width: 100%;
+  transform: translateX(-50%);
+  color: #ed1b24;
+  font-size: 5rem;
+  font-weight: 1000;
+}
+sup {
+  font-weight: normal;
+  font-size: 2rem;
+  top: -1em;
+}
+.rx {
+  font-size: 1rem;
+  top: -3.2em;
+}
+.sub {
+  position: absolute;
+  font-family: "Roboto Condensed", sans-serif;
+  top: 20rem;
+  left: 22%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.syrup {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.tagline {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  font-style: italic;
+  position: absolute;
+  top: 22rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tag-span {
+  color: #772c2b;
+}
+.medicine-and-desc {
+  position: absolute;
+  top: 20rem;
+}
+.grid-img {
+  height: 75% !important;
+}
+.prec {
+  font-size: 10px;
+  position: absolute;
+  top: 50rem;
+}
