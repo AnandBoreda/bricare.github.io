@@ -18,7 +18,7 @@ body {
 .title {
   position: absolute;
   top: 15rem;
-  left: 70%;
+  left: 66%;
   width: 100%;
   transform: translateX(-50%);
   color: #ed1b24;
@@ -38,7 +38,7 @@ sup {
   position: absolute;
   font-family: "Roboto Condensed", sans-serif;
   top: 20rem;
-  left: 22%;
+  left: 19%;
   font-size: 1rem;
   font-weight: 800;
 }
@@ -52,12 +52,16 @@ sup {
   font-size: 2rem;
   font-style: italic;
   position: absolute;
-  top: 22rem;
+  top: 18rem;
   left: 50%;
   transform: translateX(-50%);
 }
 .tag-span {
   color: #772c2b;
+}
+.tag-smile {
+  height: 10%;
+  width: 10%;
 }
 .medicine-and-desc {
   position: absolute;

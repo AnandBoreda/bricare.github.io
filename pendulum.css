@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+/* font-family: 'Righteous', cursive; */
 html,
 body {
   margin: 0;
@@ -12,13 +14,61 @@ body {
   position: absolute;
   z-index: 1;
 }
+.holder {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  z-index: 4;
+  background-color: #fcb855;
+  border-radius: 60px;
+  top: 7rem;
+  left: 45%;
+  opacity: 0;
+}
 .cough {
   position: absolute;
   z-index: 2;
-  height: 1rem;
-  width: 1rem;
+  height: 80vh;
+  left: 35%;
+  animation: cough 0.5s linear 1 forwards;
+  animation-delay: 1.4s;
 }
 .smile {
   position: absolute;
   z-index: 3;
+  height: 80vh;
+  left: 53%;
+  transform: rotate(-32deg);
+  top: -2rem;
+  animation: smile 0.5s linear 1 forwards;
+  animation-delay: 1s;
+}
+
+@keyframes cough {
+  0% {
+    left: 35%;
+    top: 0rem;
+    transform: rotate(0deg);
+    transform-origin: top center;
+  }
+  100% {
+    left: 46%;
+    top: 1.5rem;
+    transform: rotate(32deg);
+    transform-origin: top center;
+  }
+}
+@keyframes smile {
+  0% {
+    left: 22%;
+    top: 1.2rem;
+    transform: rotate(-40deg);
+    transform-origin: top center;
+  }
+  100% {
+    left: 36%;
+    top: 0rem;
+    transform: rotate(0deg);
+    transform-origin: top center;
+  }
 }
