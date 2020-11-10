@@ -42,17 +42,18 @@ body {
   position: absolute;
   top: 9rem;
   left: 6%;
+  font-size: 1rem;
 }
 .for {
   font-weight: 600;
   font-family: "Allura", cursive;
   color: #000;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .dry-cough {
   font-family: "Oswald", sans-serif;
   color: #9a1d24;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 sup {
   font-weight: normal;
